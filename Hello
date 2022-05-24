@@ -1,0 +1,97 @@
+Hi I don't know how to get a hold of you any other way GitHub is weird like that anyway first let me say that I am impressed with your SimCity editor I am working on this project here I was wondering if you could help me out with just any pointers you might have on the subject.
+Thank you so much!
+
+SNES SimCity+
+https://www.romhacking.net/forum/index.php?topic=34930.msg430042#msg430042
+
+Because I'm doing this on a phone I can't highlight a large amount of text and the link might not work for you so here is my project ideas...
+
+...
+At long last, we're working on the Super Nintendo SimCity and figuring that stuff out, booyah!
+
+There are more things I would like to add but for now this will do I will post more hexadecimal offsets as I discover them. Anybody is willing to comment of course or add any input or codes you have discovered or unlocked let's get this stuff figured out so that we can document it and update the Data Crystal! 
+
+
+First let me say that it's been a number of years that I've been doing ROM hacking and it's been awhile so my skills are a bit Rusty. Also I'm well aware of the NES SimCity stuff that is out there I am not sure if those are the same codes as we are working on the SNES version and unlocking that stuff so better editors can be figured out and developed. Lots of people have been interested in this kind of project for some time myself included.
+
+  However without further ado let's get the project details aligned here: 
+ 
+  In SHORT:
+ 
+  * Figure out the SimCity internal working code & expand upon some of the capabilities.
+    New Graphics, Sounds, BGM, Menus, Scenarios, etc.
+   
+  * Add a debug options shortcut to the main screen where it says 'Press Start.'
+    Also, add some extra options to the debug screen. 
+
+*Debug bulldozer displaying on screen coordinates/hex address for each tile in the city that is highlighted by the "bulldoze-tile."
+ 
+  * Expand the total number of 'internal save slots by two or more and double the amount of total scenarios... 
+ 
+  * Build a Scenario Editor (internal in the ROM)... Because simply put the scenarios are that simple in this game we do not need an external editor.
+ 
+  * Scenario length duration which city slot to load for the scenario. 
+ 
+  * Increase city name size to 16 characters. 
+ 
+  * Speed up the game's processing Time (so we can have...:)
+  * MAPS: Random Generator(add park_grassy, park_trees, etc.) randomly generate in maps.
+ 
+ 
+  CUSTOMIZATION:
+ 
+  *Very Easy Mode (start with $40k)
+ 
+  *Disable plane crashes no matter what even when disasters are off. This can finally go away yay! 
+ 
+  *Buildings very high in crime should have almost a shady tint to them. Think of a hospital with almost murky chernobyl-like tint to it. O.o 
+ 
+  *Allow power lines roads and rails to be overlapped over water. This of course will allow and require us to expand and add new graphical tiles. 
+ 
+  *Speaking of graphical tiles... Allow a setting screen where you can choose your team colors for the football stadium where you can adjust the pallet of the audience and the cars outside. The "locomotive/train" should also reflect the Team Colors!  As an added bonus when you get a train station that locomotive should actually be two cars long instead of just one and move slightly faster...
+ 
+  * Large Parks (Large Park max 12(from 3), with 100 required Parks for gift(down from 300)
+  ...as well as 'other new gifts', CityHall, Botanical Garden, Baseball Stadium, "Skyscraper", Mall, Domed Arcology, etc.
+ 
+ 
+  * Park tiles should be replaced with a menu: Park_grassy($10),Park_Tree(20),Water($50), Sandy/rocky_tiles(10)...,hilly_tile[right,left](100),etc.
+ 
+  Unlike Parks(default), park_tree should have a slight higher land value..., than park_grassy.
+ 
+  Sandy/rocky_tiles: Rubble graphics (but with a different palette so that) it is known that there's a difference in land value than just rubble.
+ 
+  hilly_tile[right,left]: Giving the representation of 'height on a flat map.'
+ 
+  Also being able to develop shorelines and have a grassy shoreline or Sandy shoreline (which would be different than undeveloped shorelines) for those who like to detail their maps...
+ 
+  With these different kinds of parks we can make some really Kick-A$$ maps.
+ 
+  *NTNL PARK & NTNL MNMT
+  National Park and national monuments(should boost land value overall), as well as City Hall with a population of 50,000(would increase commerce and residential.)
+  City Hall should be the same tile dimensions size as the other gifts, but the Nationals should be the size of a stadium... With the abbreviated truncated/shortened names('NTNL PARK' in the bottom left corner of the graphic.
+
+Botanical garden...from NES version. After placing maximum Parks the very last Park will be this.
+
+Mall 20,000 population there will be some kind of mini game available here probably ol' school 'asteroids' or something like that... Using SimCity graphics.
+
+Skyscraper... A large Tower the tile grid size of a football stadium... Purpose is to boost/increase population density and land value... It will have the glowy letters "METRO" blinking on the top.
+ 
+The domed archeology will probably be something from a "neighboring video game." Boost population density and is almost considered a city within itself. When population reaches 250, 000 and the year is later than 2050.
+ 
+  If somebody would like to come up with graphics for these that would be awesome! 
+
+ 
+  * Boat path tiles (these exist but invisible) I did not know that until recently I thought the boat just randomly flowed through the oceans. :p  SO: ADD a 'builder mode' to be able to edit those as well as be able to add/edit the airplane path for that (so they can leave the city and or/land).
+
+  This could be done by just making a layer that allows you to paint the tiles where they are at and we could use a simple color highlight for them. ... Or have the game Auto build with an algorithm to between seaports as they are placed. (this could be used for Tornado Disaster generation as well)
+ 
+
+ 
+  *Sound:
+  Replace the annoying Dr. Wright traffic warning with the "This is Simcopter one reporting heavy traffic!" sound from SimCity 2000. If the simcopter report is stacked 10 times then the Dr. Wright message will appear.   
+ 
+ 
+  * Nuclear waste should be bulldozable for $5,000.   
+   (Highlighting tiles should display how much($) it is to Bulldoze that particular tile)
+ 
+ Anyway get back to me sometime...
